@@ -4,7 +4,7 @@ SRC=src
 TARGET=target
 
 make:
-	$(CC) -pthread $(SRC)/seq_writes.c -o $(TARGET)/seq_writes
+	$(CC) -pthread $(SRC)/par_writes.c -o $(TARGET)/par_writes
 
 clean:
-	rm $(TARGET)/seq_writes
+	rm $(TARGET)/par_writes
