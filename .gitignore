@@ -2,4 +2,3 @@ generated/*
 target/
 results/
 *.swp
-settings.cfg
